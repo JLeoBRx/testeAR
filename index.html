@@ -96,7 +96,7 @@
         });;
         
     </script>
-    <script src="Build/build.loader.js"></script>
+    <script src="Build/testeAR.loader.js"></script>
     <script>
             var container = document.querySelector("#unity-container");
             var canvas = document.querySelector("#unity-canvas");
@@ -108,9 +108,9 @@
                 
                 document.getElementById("startARDiv").style.display = "none";
                 createUnityInstance(document.querySelector("#unity-canvas"), {
-                    dataUrl: "Build/build.data",
-                    frameworkUrl: "Build/build.framework.js",
-                    codeUrl: "Build/build.wasm",
+                    dataUrl: "Build/testeAR.data",
+                    frameworkUrl: "Build/testeAR.framework.js",
+                    codeUrl: "Build/testeAR.wasm",
                     streamingAssetsUrl: "StreamingAssets",
                     companyName: "DefaultCompany",
                     productName: "My project",
